@@ -2,7 +2,7 @@ if input("\ndo you want to install spotipy and syncsaber api? (y/n): ") == "y":
     import os
     os.system('pip3 install spotipy')
     os.system('pip3 install beatsaver.py')
-
+    os.system('pip3 install --upgrade pip')
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
