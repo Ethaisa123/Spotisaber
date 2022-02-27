@@ -15,7 +15,7 @@ print("**disclaimer the map that is downloaded is the map thats name most closel
 
 
 #Authentication
-client_credentials_manager = SpotifyClientCredentials(client_id="39bca5a1f9ee4f278b055725a1d8369d", client_secret="47ea9f911145410d8463e3b28d2d5052")
+client_credentials_manager = SpotifyClientCredentials(client_id="39bca5a1f9ee4f278b055725a1d8369d", client_secret="3cc1d92c25184b3c85f40fb15c417742")
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 spotify_pl = []
 
