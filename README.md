@@ -23,7 +23,7 @@ if you get an error restart the program and try again
 if you choose to download the tracks it will download through your defalt browser and to the same place that browser downloads to
 try not to request more than 500 maps at a time as it could overload the syncsaber api
 
-### Will you like a propper gooye
+### Will you make a propper gooye
 I will not make a propper gui beacuse im stupied and i like text based programs like an old text adventure 
 
 #### dont do anything bad like spamming the servers yadda yadda
