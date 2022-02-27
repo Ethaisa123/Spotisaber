@@ -12,14 +12,18 @@ spotisaber only retrives a map with a simmilar name to the song in spotify so sa
 on first start up please accept the promt to install spotipy and syncsaber api, there will be a lot of text, this is normal
 
 # Faq
-^ whats a playlist link?
-to find the spotify link go to a spotify playlist and rightclick > share > copylink to playlist
+### Whats a playlist link?
+to find the spotify link go to a spotify playlist and rightclick > share > copylink to playlist 
 then paste it into the terminal
 
-
+### I keep getting errors
 if you get an error restart the program and try again
 
+### Where are the tracks downloaded
 if you choose to download the tracks it will download through your defalt browser and to the same place that browser downloads to
 try not to request more than 500 maps at a time as it could overload the syncsaber api
 
-dont do anything bad like spamming the servers yadda yadda
+### Will you like a propper gooye
+I will not make a propper gui beacuse im stupied and i like text based programs like an old text adventure 
+
+#### dont do anything bad like spamming the servers yadda yadda
