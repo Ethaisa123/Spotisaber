@@ -17,6 +17,7 @@ to find the spotify link go to a spotify playlist and rightclick > share > copyl
 then paste it into the terminal
 
 ### I keep getting errors
+spotisaber will only run if you are connect to a unblocked network
 make sure you are running the program on python 3, if you do not have python installed please install it at python.com
 sometimes there may be spesific hardware errors that are out of the programms control if you get on please add it to the issues tab
 
