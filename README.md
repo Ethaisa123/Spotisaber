@@ -13,9 +13,7 @@ spotisaber only retrives a map with a simmilar name to the song in spotify so sa
 on first start up please accept the promt to install spotipy and syncsaber api, there will be a lot of text, this is normal
 
 # Faq
-## MAKE SURE YOU HAVE PYTHON 3 DOWNOADED FROM THE MIROSOFT STORE
-
-
+### MAKE SURE YOU HAVE PYTHON 3 DOWNOADED FROM THE MIROSOFT STORE
 ### Whats a playlist link?
 to find the spotify link go to a spotify playlist and rightclick > share > copylink to playlist 
 then paste it into the terminal
