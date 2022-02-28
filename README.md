@@ -1,10 +1,11 @@
 # Spotisaber
-A program that takes a spotify playlist and find the beatsaber map equivilant 
+A program that takes the songs from a spotify playlist and finds the beatsaber map equivilant 
 
 # Credits
 Made by Ethan van Wijk
 u/ethaisa123
 @ethan_surplus
+Ethaisa123 #1396
 
 # Welcome
 welcome to spotisaber a tool for efficently adding maps to beatsaber from spotify
