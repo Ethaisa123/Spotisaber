@@ -30,9 +30,19 @@ try not to request more than 500 maps at a time as it could overload the syncsab
 
 ### Will you make a propper gooye
 I will not make a propper gui beacuse im stupied and i like text based programs like an old text adventure 
+this text is a lie ^^^
 
 ### what is "Couldn't write token to cache at: .cache"
 "Couldn't write token to cache at: .cache" is a known error that does not effect the program, feel free to ignore it
 ### IMPORTANT: make sure you have python 3 installed from the microsoft store! (https://www.microsoft.com/store/productId/9P7QFQMJRFP7)
 
 #### dont do anything bad like spamming the servers yadda yadda
+
+# ---gui version---
+If you are running the program for the first time please click the install libraries button to make it work ( try relaunching aswell )
+the programm freezes temporaroiolee when it sends a get request to the spotify servers annd the beast saber servers!
+
+
+
+
+
