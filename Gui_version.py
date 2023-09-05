@@ -1,14 +1,21 @@
 import tkinter as tk
-from tkinter import *
-from tkinter import ttk
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-import json
-from beatsaver.beatsaver import BeatSaver
-import webbrowser
-import time
-from tkscrolledframe import ScrolledFrame
-
+import os
+while True:
+    try:
+        from tkinter import *
+        from tkinter import ttk
+        import spotipy
+        from spotipy.oauth2 import SpotifyClientCredentials
+        from beatsaver.beatsaver import BeatSaver
+        import webbrowser
+        from tkscrolledframe import ScrolledFrame
+        break
+    except:
+        os.system('pip3 install spotipy')
+        os.system('pip3 install beatsaver.py')
+        os.system('pip3 install --upgrade pip')
+        os.system('pip install tkScrolledFrame')
+        os.system('pip install tkinter')
 global check
 check = False
 
@@ -69,7 +76,7 @@ def button_comfirm():
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
     spotify_pl = []
 
-    # my personal playlist -> https://open.spotify.com/playlist/6fnTjhDz0q1RKGhmsAOHQF?si=6f118c238abb425f (for testing
+    # my personal playlist -> https://open.spotify.com/playlist/6fnTjhDz0q1RKGhmsAOHQF?si=6f118c238abb425f (for testing)
 
     # requests With the ID
     playlist_URI = playlist_link.split("/")[-1].split("?")[0]
@@ -155,6 +162,7 @@ def button_comfirm():
         link.bind("<Button-1>", lambda e:
         callback(str(beat_download_trim)))
         link.pack(side = TOP, pady=20, padx = 7)
+        print(beat_download_trim)
         
 
     # asking for the ammount of songs to be downloaded (sets to length of plalist if a number higher than the playlist is given)
@@ -163,12 +171,13 @@ def button_comfirm():
     # running the seaching and printing for songs
     for f in range(len(spotify_pl)):
         search_song(spotify_pl, f, beat_download_lst)
+    print(beat_download_lst)
     def down_all():
             for i in range (0, len(spotify_pl) - 1):
                 webbrowser.open(beat_download_lst[i])
     
     # downloading maps found
-    ttk.Button(frame, text = "download all tracks?", command=down_all).place()
+    ttk.Button(frame, text = "download all tracks?", command=down_all).place(x=0,y=0) #side = TOP, pady=20, padx = 7
       
 
 
