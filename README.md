@@ -28,9 +28,9 @@ sometimes there may be spesific hardware errors that are out of the programms co
 if you choose to download the tracks it will download through your defalt browser and to the same place that browser downloads to
 try not to request more than 500 maps at a time as it could overload the syncsaber api
 
-### Will you make a propper gooye
+### Will you make a propper Gui
 I will not make a propper gui beacuse im stupied and i like text based programs like an old text adventure 
-this text is a lie ^^^
+this text is a lie i ended up making a Gui^^^
 
 ### what is "Couldn't write token to cache at: .cache"
 "Couldn't write token to cache at: .cache" is a known error that does not effect the program, feel free to ignore it
